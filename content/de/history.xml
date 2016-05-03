@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Page template="index">
+	
+	<Meta>
+		<Title>Die Geschichte</Title>
+		<Keywords>Hamburg, Heights</Keywords>
+		<Description>Schon bevor kritische Journalisten von hier aus mit Fakten und spitzer Feder für die Wahrheit ins Feld zogen, war das Areal der heutigen Hamburg Heights ein Ort, der seiner Zeit voraus war und großen Einfluss hatte – nicht nur auf die Hansestadt.</Description>
+	</Meta>
+	
+	<Content>
+
+		<Section>
+			<Area>
+				<Row>
+					<Col classname="col12of12 relative margin-bottom-double">
+						<Mod classname="fadegallery autogallery dropshadow " style="margin-left: 12px; margin-right: 12px; margin-top: 16px;">
+							<Panel>
+								<Mod template="mod.image" classname="slide active" id="slide-1">
+									<Image classname="stretch">media/history/slider1.jpg</Image>
+								</Mod>
+								<Mod template="mod.image" classname="slide" id="slide-2">
+									<Image classname="stretch">media/history/slider2.jpg</Image>
+								</Mod>
+							</Panel>
+							<Nav classname="simple-nav js-gallery-nav">
+								<Item href="#slide-1" title="1" />
+								<Item href="#slide-2" title="2" />
+							</Nav>
+						</Mod>
+						<!--<Mod template="mod.image" classname="mod padding-top">
+                    		<Image classname="dropshadow stretch">media/history/slider1.jpg</Image>
+                    	</Mod>-->
+                    	<Mod template="mod.image" classname="bubble">
+                    		<Image>media/bubble_history.png</Image>
+                    	</Mod>
+					</Col>
+				</Row>
+
+				<Row>
+					<Col classname="col6of12 suffix6of12">
+						<Mod template="mod.heading" classname="padding-left-double margin-bottom" style="margin-top: 11px;">
+							<Headline classname="headline">Auf den Höhen der Zeit</Headline>
+						</Mod>
+					</Col>
+					<Col classname="col6of12">
+						<Mod template="mod.text" classname="padding-left-double padding-right">
+						  <Copy>
+							<![CDATA[
+								<p>
+									Schon bevor kritische Journalisten von hier aus mit Fakten und spitzer Feder für die Wahrheit ins Feld zogen, war das Areal der heutigen Hamburg Heights ein Ort, der seiner Zeit voraus war und großen Einfluss hatte – nicht nur auf die Hansestadt. Geschichte schreiben hat eben nicht unbedingt etwas mit Druckerschwärze zu tun. 
+								</p>
+
+								<p>
+									Über den Namen des Nachrichtenmagazins wird oft vergessen, dass auch IBM, Pionier in der Computertechnik, bis 1996 eine Niederlassung auf dem Gelände der Hamburg Heights hatte. Doch auch schon vor den Zeiten von Spiegel und IBM war das Areal im Scheitel von Dovenfleet und Willy-Brandt-Straße ein Ort, wo Innovatives seinen Platz hatte: Am 1. Mai 1886 wurde hier das erste Kontorhaus der Stadt, der „Dovenhof“, gebaut. Die Häuserform, ursprünglich in den USA beheimatet, ist der Vorläufer des modernen Bürogebäudes.
+								</p>
+							]]>
+						  </Copy>
+						</Mod>
+					</Col>
+					<Col classname="col6of12">
+						<Mod template="mod.text" classname="mod">
+						  <Copy>
+							<![CDATA[
+								<p>
+									Kontorhäuser bestanden ausschließlich aus Schreibstuben, erstmals war der Warenbestand ausgelagert – in die gegenüberliegende Speicherstadt. Doch schon bald waren die Kontore nicht mehr zweckmäßig, die Geschäftswelt veränderte sich, und wegen steigender Grundstückspreise baute man in die Höhe.
+								</p>
+							]]>
+						  </Copy>
+						</Mod>
+					</Col>
+				</Row>
+
+				<Row classname="border-top margin-top-double">
+					%Global:TeaserLocation%
+					%Global:TeaserProject%
+				</Row>
+
+			</Area>
+		</Section>
+
+
+	</Content>
+</Page>

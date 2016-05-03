@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Page template="index" class="">
+	
+	<Meta>
+		<Title>Die Hamburg Heights</Title>
+		<Keywords>Hamburg, Heights</Keywords>
+		<Description>Die zwei Bürohochhäuser auf dem Areal der Hamburg Heights gehören zu den auffälligsten Silhouetten der Skyline.</Description>
+	</Meta>
+	
+	<Content>
+
+		<Section>
+			<Area>
+				<Row>
+					<Col classname="col12of12 relative margin-bottom-double">
+						<!--<Mod template="mod.image" classname="mod padding-top">
+                    		<Image classname="dropshadow stretch">media/heights/slider1.jpg</Image>
+                    	</Mod>-->
+                    	<Mod classname="fadegallery autogallery dropshadow " style="margin-left: 12px; margin-right: 12px; margin-top: 16px;">
+							<Panel>
+								<Mod template="mod.image" classname="slide active" id="slide-1">
+									<Image classname="stretch">media/heights/slider1.jpg</Image>
+								</Mod>
+								<Mod template="mod.image" classname="slide" id="slide-2">
+									<Image classname="stretch">media/heights/slider6.jpg</Image>
+								</Mod>
+								<Mod template="mod.image" classname="slide" id="slide-3">
+									<Image classname="stretch">media/heights/slider4.jpg</Image>
+								</Mod>
+							</Panel>
+							<Nav classname="simple-nav js-gallery-nav">
+								<Item href="#slide-1" title="1" />
+								<Item href="#slide-2" title="2" />
+								<Item href="#slide-3" title="3" />
+							</Nav>
+						</Mod>
+                    	<Mod template="mod.image" classname="bubble">
+                    		<Image>media/bubble_heights.png</Image>
+                    	</Mod>
+					</Col>
+				</Row>
+
+				<Row>
+					
+					<Col classname="col6of12">
+						<Mod template="mod.flipbook" classname="mod flipbook">
+							<Image classname="flipthrough" id="house-360-1">media/heights/height1/ht_hh_360_spiegel_cam01_v20</Image>
+						</Mod>
+						<Mod template="mod.text" classname="align-center" style="padding-bottom: 50px;">
+						  <Copy>
+							<![CDATA[
+								<h5>360° Ansicht: Maus auf dem Bild gedrückt halten und ziehen.</h5>
+							]]>
+						  </Copy>
+						</Mod>
+						<Col classname="col2of12fixed">
+							<Mod template="mod.image" classname="mod align-right">
+                    		<Image>media/heights/height1.png</Image>
+                    	</Mod>
+						</Col>
+						<Col classname="col4of12fixed">
+							<Mod template="mod.teaser.text" classname="padding-top-double">
+						  <Copy>
+							<![CDATA[
+								<ul>
+									<li>Gesamtmietfläche: zirka 7 150 m²</li>
+									<li>Mietfläche pro Etage: zirka 550 m²</li>
+									<li>Gebäudetiefe: 14 m </li>
+									<li>1-2 Gewerbeeinheiten im Erdgeschoss</li>
+									<li>flexible Flächenaufteilung ab <br>zirka 275 m²</li>
+									<li>25 Tiefgaragenplätze</li>
+								</ul>
+							]]>
+						  </Copy>
+						  <More classname="margin-half-left teaser-button bg-height1" href="height1">
+							<![CDATA[
+								<span class="white">Weitere Informationen</span>
+							]]>
+						  </More>
+						</Mod>
+					</Col>
+					</Col>
+					
+					
+					<Col classname="col6of12">
+						<Mod template="mod.flipbook" classname="mod flipbook">
+							<Image classname="flipthrough" id="house-360-2">media/heights/height2/ht_hh_360_ibm_cam01_v20</Image>
+						</Mod>
+						<Mod template="mod.text" classname="align-center" style="padding-bottom: 50px;">
+						  <Copy>
+							<![CDATA[
+								<h5>360° Ansicht: Maus auf dem Bild gedrückt halten und ziehen.</h5>
+							]]>
+						  </Copy>
+						</Mod>
+						<Col classname="col2of12fixed">
+							<Mod template="mod.image" classname="mod align-right">
+	                    		<Image>media/heights/height2.png</Image>
+	                    	</Mod>
+						</Col>
+						<Col classname="col4of12fixed">
+							<Mod template="mod.teaser.text" classname="padding-top-double">
+						  <Copy>
+							<![CDATA[
+								<ul>
+									<li>Gesamtmietfläche: zirka 7 225 m²</li>
+									<li>Mietfläche pro Etage: zirka 425 m²</li>
+									<li>Gebäudetiefe: 12 m </li>
+									<li>1-2 Gewerbeeinheiten im Erdgeschoss möglich</li>
+									<li>flexible Flächenaufteilung ab <br>zirka 210 m²</li>
+									<li>27 Tiefgaragenplätze</li>
+								</ul>
+							]]>
+						  </Copy>
+						  <More classname="margin-half-left teaser-button bg-height2" href="height2">
+							<![CDATA[
+								<span class="white">Weitere Informationen</span>
+							]]>
+						  </More>
+						</Mod>
+					</Col>
+					</Col>
+				</Row>	
+
+				<Row>
+					
+					
+					
+				</Row>
+
+				<Row classname="border-top margin-top-double">
+					%Global:TeaserLocation%
+					%Global:TeaserHistory%
+				</Row>
+
+			</Area>
+		</Section>
+
+
+	</Content>
+</Page>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site>
+
+	<Meta>
+		
+		<Title>Hamburg Heights</Title>
+		<Author>Cadman</Author>
+			
+		<GoogleAnalytics>UA-32331100-5</GoogleAnalytics>
+
+		<Default_Page>home</Default_Page>
+		<Languages>de</Languages>
+		<Mail_From>no-reply@hamburg-heights.de</Mail_From>
+	</Meta>
+
+	<Pages>
+	
+		<de>
+			<XMLLoader	name="home" 								uri="home" />
+
+			<XMLLoader	name="project" 								uri="projekt" />
+
+			<XMLLoader	name="history" 								uri="geschichte" />
+
+			<XMLLoader	name="location" 							uri="lage" />
+
+			<XMLLoader	name="heights" 								uri="heights" />
+
+			<XMLLoader	name="height1"  							uri="height-1" />
+
+			<XMLLoader	name="height2"  							uri="height-2" />
+			
+			<XMLLoader	name="contact" 								uri="contact" />
+			
+			<XMLLoader	name="imprint" 								uri="impressum" />
+			
+			<XMLLoader	name="error" 								uri="404" />
+			
+		</de>
+		
+	</Pages>
+
+
+</Site>

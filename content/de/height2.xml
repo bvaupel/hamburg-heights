@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Page template="index">
+	
+	<Meta>
+		<Title>Heights2</Title>
+		<Keywords>Hamburg, Heights</Keywords>
+		<Description>Zusammen mit modernen Neubauten werden die historischen Häuser ein Ensemble bilden, das als Hamburg Heights zu einem Wahrzeichen der Stadt heranreift – selbstbewusst, eigenständig und dynamisch.</Description>
+	</Meta>
+	
+	<Content>
+
+		<Section>
+			<Area>
+				<Row>
+					<Col classname="col12of12 relative margin-bottom-double">
+						<!--<Mod template="mod.image" classname="mod padding-top">
+                    		<Image classname="dropshadow stretch">media/heights/slider3.jpg</Image>
+                    	</Mod>-->
+                    	<Mod classname="fadegallery autogallery dropshadow " style="margin-left: 12px; margin-right: 12px; margin-top: 16px;">
+							<Panel>
+								<Mod template="mod.image" classname="slide active" id="slide-1">
+									<Image classname="stretch">media/heights/slider10.jpg</Image>
+								</Mod>
+								<Mod template="mod.image" classname="slide" id="slide-2">
+									<Image classname="stretch">media/heights/slider8.jpg</Image>
+								</Mod>
+								<Mod template="mod.image" classname="slide" id="slide-3">
+									<Image classname="stretch">media/heights/slider12.jpg</Image>
+								</Mod>
+							</Panel>
+							<Nav classname="simple-nav js-gallery-nav">
+								<Item href="#slide-1" title="1" />
+								<Item href="#slide-2" title="2" />
+								<Item href="#slide-3" title="3" />
+							</Nav>
+						</Mod>
+                    	<Mod template="mod.image" classname="bubble">
+                    		<Image>media/bubble_height_2.png</Image>
+                    	</Mod>
+					</Col>
+				</Row>
+
+				<Row>
+					<Col classname="col3of12 suffix9of12 padding-bottom">
+						<Mod template="mod.text" classname="padding-left-double selection" 
+							 href="heights">
+						<Copy><![CDATA[
+							zurück zur Auswahl
+						]]></Copy>
+					</Mod>
+					</Col>
+					<Col classname="col6of12 suffix6of12">
+						<Mod template="mod.heading" classname="padding-left-double margin-bottom" style="margin-top: 11px;">>
+							<Headline classname="headline">Ein Statement ohne Worte</Headline>
+						</Mod>
+					</Col>
+				</Row>
+
+				<Row>
+					<Col classname="col6of12">
+						<Mod template="mod.text" classname="padding-left-double padding-right-double">
+						  <Copy>
+							<![CDATA[
+								<p>
+									Wer hier seinen Standort plant, setzt ein Zeichen. Der weithin sichtbare schwarze Monolith von Height2 prägt das Bild der Adresse Hamburg Heights. Die dunkle Glasfassade wird bei der Revitalisierung des Objekts um energetische Komponenten ergänzt, um den heutigen Maßstäben für Energieeffizienz zu entsprechen. Auch im Inneren hält die Zukunft Einzug: Zeitgemäße Gebäudetechnik und modernste Netzwerk-Anschlüsse werden in den Etagen von Height2 installiert.
+								</p>
+
+								<p class="border-bottom padding-bottom">
+									Etwas für das Auge gibt es als krönenden Abschluss: Im 16. Obergeschoss bieten die großen sogenannten Skywindows eine atemberaubende Sicht über Hamburg. Auf mehr als 7225 Quadratmetern entstehen auf diese Weise variabel nutzbare Office-Flächen für Unternehmen, die ganz oben angekommen sind – oder dorthin wollen. 
+								</p>
+							]]>
+						  </Copy>
+						</Mod>
+						<Col classname="col2of12fixed" style="margin-top: 10px;">
+							<Mod template="mod.text" classname="padding-left-double">
+							  <Copy>
+								<![CDATA[
+									<p class="font-height2">
+										Daten & Fakten 
+									</p>
+								]]>
+							  </Copy>
+							</Mod>
+						</Col>
+						<Col classname="col4of12fixed" style="margin-top: 25px;">
+							<Mod template="mod.text">
+							  <Copy>
+								<![CDATA[
+										<ul class="facts-list">
+											<li>Gesamtmietfläche: zirka 7 225 m²</li>
+											<li>Mietfläche pro Etage: zirka 425 m²</li>
+											<li>Gebäudetiefe: 12 m</li>
+											<li>1-2 Gewerbeeinheiten im Erdgeschoss</li>
+											<li>flexible Flächenaufteilung ab zirka 210 m²</li>
+											<li>27 Tiefgaragenstellplätze</li>
+									    </ul>
+								]]>
+							  </Copy>
+							</Mod>
+						</Col>
+						<Mod template="mod.table" classname="mod facts-table">
+						 <Row>
+			                <UnitOne classname="unit-one">Objekt</UnitOne>
+			                <UnitTwo>Height2</UnitTwo>
+			              </Row>
+			              <Row>
+			                <UnitOne classname="unit-one">Adresse</UnitOne>
+			                <UnitTwo>Willy-Brandt-Straße 23, 20457 Hamburg</UnitTwo>
+			              </Row>
+			               <Row>
+			                <UnitOne classname="unit-one">Gebäudetyp</UnitOne>
+			                <UnitTwo>16-geschossiges Bürogebäude zzgl. Erdgeschoss und Untergeschoss</UnitTwo>
+			              </Row>
+			              <Row>
+			                <UnitOne classname="unit-one">Baujahr</UnitOne>
+			                <UnitTwo>1967</UnitTwo>
+			              </Row>
+			              <Row>
+			                <UnitOne classname="unit-one">Revitalisierung</UnitOne>
+			                <UnitTwo>2013 bis 2015</UnitTwo>
+			              </Row>
+			              <Row>
+			                <UnitOne classname="unit-one">Nutzungsart</UnitOne>
+			                <UnitTwo>Büronutzung mit Gewerbeflächen</UnitTwo>
+			              </Row>
+			              <Row>
+			                <UnitOne classname="unit-one">Bruttogrundfläche</UnitOne>
+			                <UnitTwo>zirka 8 750 m²</UnitTwo>
+			              </Row>
+			              <Row>
+			                <UnitOne classname="unit-one">Aufzüge</UnitOne>
+			                <UnitTwo>mindestens drei</UnitTwo>
+			              </Row>
+          			    </Mod>
+					</Col>
+					<Col classname="col6of12">
+						<Mod template="mod.image" classname="mod overlay" href="media/heights/height2-zellen-xl.jpg">
+                    		<Image classname="" >media/heights/h2-zellen.png</Image>
+                    	</Mod>
+                    	<Mod template="mod.image" classname="mod overlay" href="media/heights/height2-team-xl.jpg">
+                    		<Image classname="" >media/heights/h2-team.png</Image>
+                    	</Mod>
+                    	<Mod template="mod.image" classname="mod overlay" href="media/heights/height2-open-xl.jpg">
+                    		<Image classname="" >media/heights/h2-open.png</Image>
+                    	</Mod>
+					</Col>
+				</Row>
+
+
+				
+
+			</Area>
+		</Section>
+
+
+	</Content>
+</Page>

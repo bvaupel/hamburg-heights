@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Page template="index">
+	
+	<Meta>
+		<Title>Kontakt</Title>
+		<Keywords>Hamburg, Heights</Keywords>
+		<Description>HOCHTIEF Solutions plant, entwickelt, baut, bewirtschaftet und verwaltet Immobilien und Infrastruktureinrichtungen.</Description>
+	</Meta>
+	<Content>
+
+		<Section>
+			<Area>
+				<Row>
+					<Col classname="col12of12 relative margin-bottom-double">
+						<Mod template="mod.image" classname="mod padding-top">
+                    		<Image classname="dropshadow stretch">media/contact/slider1.jpg</Image>
+                    	</Mod>
+                    	<Mod template="mod.image" classname="bubble">
+                    		<Image>media/bubble_contact.png</Image>
+                    	</Mod>
+					</Col>
+				</Row>
+
+				<Row>
+					<Col classname="col6of12 suffix6of12">
+						<Mod template="mod.heading" classname="padding-left-double margin-bottom">
+							<Headline classname="headline">HOCHTIEF Projektentwicklung GmbH</Headline>
+						</Mod>
+					</Col>
+					<Col classname="col6of12">
+						<Mod template="mod.text" classname="padding-left-double padding-right">
+						  <Copy>
+							<![CDATA[
+								<p>
+									HOCHTIEF Projektentwicklung entwickelt, realisiert und vermarktet als Tochtergesellschaft des HOCHTIEF-Konzerns seit 1991 Immobilienprojekte im In- und Ausland und gilt in Deutschland als führender Innenstadtentwickler. Büroimmobilien in Innenstadt- und citynahen Lagen bilden das Kerngeschäft. Weitere Schwerpunkte sind Wohn- und Gewerbeimmobilien sowie die Entwicklung ganzer Stadtquartiere. HOCHTIEF Projektentwicklung baut kein eigenes Immobilienportfolio auf, sondern agiert als „Investor auf Zeit“ mit dem Ziel, die Projekte frühestmöglich und gut vermietet an einen Endinvestor zu verkaufen. Mit seinen Vertretungen in Deutschland und dem europäischen Ausland stellt das Unternehmen die Nähe zu den Kunden sicher. Nachhaltige Konzepte, beste Standorte, anspruchsvolle Architektur und innovative Technik sorgen für Wertsteigerungen und Kostensenkungen.
+								</p>
+							]]>
+						  </Copy>
+						</Mod>
+					</Col>
+					<Col classname="col6of12">
+						<Mod template="mod.text" classname="mod">
+						  <Copy>
+							<![CDATA[
+								<p class="blue">
+									HOCHTIEF Projektentwicklung GmbH <br>
+									Niederlassung Nord <br><br>
+									Fuhlsbüttler Straße 399 <br>
+
+22309 Hamburg <br>
+
+Germany
+
+
+								</p>
+
+								<p>
+									E-Mail: <a href="mailto:info.htp@hochtief.de">info.htp@hochtief.de</a> <br> 
+								
+									Tel.: +49 40 - 30 03 21 - 57 00 <br>
+
+									Fax: +49 40 - 30 03 21 - 57 01
+								</p>
+
+								<!--<p>
+									Vermietungsauftrag durch: 
+								</p>
+
+								<p>
+									BNP Paribas Real Estate GmbH <br>
+									Marco Stahl <br>
+									Tel.: 040 34848222 | Mail: <a href="mailto:marco.stahl@bnpparibas.com">marco.stahl@bnpparibas.com</a> <br><br>
+									Grossmann & Berger GmbH <br>
+									Patrick Mann <br>
+									Tel.: 040 35080283 | Mail: <a href="mailto:p.mann@grossmann-berger.de">p.mann@grossmann-berger.de</a>
+								</p>-->
+							]]>
+						  </Copy>
+						</Mod>
+					</Col>
+				</Row>
+
+				<Row classname="border-top margin-top-double">
+					%Global:TeaserProject%
+					%Global:TeaserHistory%
+				</Row>
+
+			</Area>
+		</Section>
+
+
+	</Content>
+</Page>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Page template="index">
+	
+	<Meta>
+		<Title>Home</Title>
+		<Keywords>Hamburg, Heights</Keywords>
+		<Description>Die zwei Bürohochhäuser auf dem Areal der Hamburg Heights gehören zu den auffälligsten Silhouetten der Skyline. Die kantigen Bauhaus-Fassaden sind architektonische Höhepunkte an einem herausragenden Standort.</Description>
+	</Meta>
+	
+	<Content>
+
+		<Section>
+			<Area>
+				<Row>
+					<Col classname="col12of12 relative padding-bottom">
+						<Mod template="mod.image" classname="mod padding-top">
+                    		<Image classname="dropshadow stretch">media/home/slider1.jpg</Image>
+                    	</Mod>
+                    	<Mod template="mod.image" classname="bubble">
+                    		<Image>media/bubble_home.png</Image>
+                    	</Mod>
+					</Col>
+				</Row>
+
+				<Row>
+					<Col classname="col4of12">
+						<Mod template="mod.teaser.topic" classname="mod topic" href="history">
+							<Image classname="dropshadow">media/home/epizentrale.jpg</Image>
+							<Headline classname="h2 blue"><![CDATA[Epizentrale]]></Headline>
+							<Kicker classname="h5 blue margin-bottom"><![CDATA[Die Geschichte]]></Kicker>
+							<Exzerpt classname="blue"><![CDATA[Schon bevor kritische Journalisten von hier aus für die Wahrheit ins Feld zogen, war das Areal seiner Zeit voraus ...]]></Exzerpt>
+							<More classname="teaser-more">Mehr</More>
+						</Mod>
+					</Col>
+					<Col classname="col4of12">
+						<Mod template="mod.teaser.topic" classname="mod  topic" href="heights">
+							<Image classname="dropshadow">media/home/potentials.jpg</Image>
+							<Headline classname="h2 blue"><![CDATA[Heights Potential ]]></Headline>
+							<Kicker classname="h5 blue margin-bottom"><![CDATA[Die Hamburg Heights]]></Kicker>
+							<Exzerpt classname="blue"><![CDATA[Variabel nutzbare Office-Flächen für Unternehmen, die ganz oben angekommen sind – oder dorthin wollen ...]]></Exzerpt>
+							<More classname="teaser-more">Mehr</More>
+						</Mod>
+						
+					</Col>
+					<Col classname="col4of12">
+						<Mod template="mod.teaser.topic" classname="mod  topic" href="location">
+							<Image classname="dropshadow">media/home/location.jpg</Image>
+							<Headline classname="h2 blue"><![CDATA[Place to b2b]]></Headline>
+							<Kicker classname="h5 blue margin-bottom"><![CDATA[Die Umgebung]]></Kicker>
+							<Exzerpt classname="blue"><![CDATA[Die markanten Hochhäuser der Hamburg Heights prägen seit mehr als 40 Jahren das Bild der Altstadt am Zollkanal ...]]></Exzerpt>
+							<More classname="teaser-more">Mehr</More>
+						</Mod>
+					</Col>
+				</Row>
+
+
+				<Row>
+					<Col classname="col12of12 margin-top-double">
+						<Mod template="mod.image" classname="mod" href="http://itunes.apple.com/de/app/hamburg-heights/id680676431?mt=8">
+                    		<Image classname="stretch">media/home/app.jpg</Image>
+                    	</Mod>
+					</Col>
+				</Row>
+
+			</Area>
+		</Section>
+
+
+	</Content>
+</Page>

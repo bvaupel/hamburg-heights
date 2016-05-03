@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Page template="index">
+	
+	<Meta>
+		<Title>Das Projekt</Title>
+		<Keywords>Hamburg, Heights</Keywords>
+		<Description>Zusammen mit modernen Neubauten werden die historischen Häuser ein Ensemble bilden, das als Hamburg Heights zu einem Wahrzeichen der Stadt heranreift – selbstbewusst, eigenständig und dynamisch.</Description>
+	</Meta>
+	
+	<Content>
+
+		<Section>
+			<Area>
+				<Row>
+					<Col classname="col12of12 relative margin-bottom-double">
+						<Mod template="mod.image" classname="mod padding-top">
+                    		<Image classname="dropshadow stretch">media/project/slider1.jpg</Image>
+                    	</Mod>
+                    	<Mod template="mod.image" classname="bubble">
+                    		<Image>media/bubble_project.png</Image>
+                    	</Mod>
+					</Col>
+				</Row>
+
+				<Row>
+					<Col classname="col6of12 suffix6of12">
+						<Mod template="mod.heading" classname="padding-left-double margin-bottom">
+							<Headline classname="headline">Oben angekommen</Headline>
+						</Mod>
+					</Col>
+					<Col classname="col6of12">
+						<Mod template="mod.text" classname="padding-left-double padding-right">
+						  <Copy>
+							<![CDATA[
+								<p>
+									Im Stadtgebiet von Hamburg ist die Zahl der Gebäude mit einer Höhe von mehr als hundert Metern buchstäblich überschaubar. Ein Gutteil des Charmes der Stadt rührt auch daher, dass noch immer die Kirchtürme die Hamburger Skyline prägen. Die zwei Bürohochhäuser auf dem Areal der Hamburg Heights gehören zu den auffälligsten Silhouetten dieser Skyline. Die kantigen Bauhaus-Fassaden sind architektonische Höhepunkte an einem herausragenden Standort.
+								</p>
+
+								<p>
+									Die Gebäude bieten unternehmerischen Weitblick in seiner schönsten Form: Sie begeistern durch den Blick über Speicherstadt und Elbe ebenso wie durch ihre Ausstattung auf hohem Niveau. Mit dem Refurbishment des ehemaligen SPIEGEL-Redaktionsgebäudes und des früheren IBM-Hochhauses wird die in den 1960er Jahren als revolutionär empfundene Architektursprache in die heutige Zeit übersetzt. 
+								</p>
+							]]>
+						  </Copy>
+						</Mod>
+					</Col>
+					<Col classname="col6of12">
+						<Mod template="mod.text" classname="mod">
+						  <Copy>
+							<![CDATA[
+								<p>
+									Zusammen mit modernen Neubauten werden die historischen Häuser ein Ensemble bilden, das als Hamburg Heights zu einem Wahrzeichen der Stadt heranreift – selbstbewusst, eigenständig und dynamisch. Die imposanten Gebäude sind bereit für Unternehmen, die hoch hinauswollen. Oder die bereits oben angekommen sind. 
+								</p>
+							]]>
+						  </Copy>
+						</Mod>
+					</Col>
+				</Row>
+
+				<Row classname="border-top margin-top-double">
+					%Global:TeaserLocation%
+					%Global:TeaserHistory%
+				</Row>
+
+			</Area>
+		</Section>
+
+
+	</Content>
+</Page>

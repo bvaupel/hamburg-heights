@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Page template="index">
+	
+	<Meta>
+		<Title>Die Umgebung</Title>
+		<Keywords>Hamburg, Heights</Keywords>
+		<Description>Die markanten Hochhäuser der Hamburg Heights prägen seit mehr als 40 Jahren das Bild der Altstadt am Zollkanal. Aus allen Richtungen sind die architektonischen Stil-Ikonen an diesem prominenten Standort bestens zu sehen.</Description>
+	</Meta>
+	
+	<Content>
+
+		<Section>
+			<Area>
+				<Row>
+					<Col classname="col12of12 relative margin-bottom-double">
+						<!--<Mod template="mod.image" classname="mod padding-top-double">
+                    		<Image classname="dropshadow stretch">media/location/slider1.jpg</Image>
+                    	</Mod>-->
+                    	<Mod template="mod.image" classname="mod padding-top has-hotspots">
+								<Image classname="dropshadow">media/location/slider1.jpg</Image>
+								<Hotspots template="mod.hotspots" classname="hotspot-layer">
+									<Spot classname="spot" position='[{"x":"417", "y":"240"}]'>
+										<Label><![CDATA[<span class="number">1</span><span class="label">Brauhaus Hanseat</span>]]></Label>
+									</Spot>
+									<Spot classname="spot" position='[{"x":"442", "y":"233"}]'>
+										<Label><![CDATA[<span class="number">2</span><span class="label">Hamburg Coffee Company</span>]]></Label>
+									</Spot>
+									<Spot classname="spot" position='[{"x":"464", "y":"224"}]'>
+										<Label><![CDATA[<span class="number">3</span><span class="label">Trattoria Bella Italia</span>]]></Label>
+									</Spot>
+									<Spot classname="spot" position='[{"x":"467", "y":"196"}]'>
+										<Label><![CDATA[<span class="number">4</span><span class="label">Kornhauskeller</span>]]></Label>
+									</Spot>
+									<Spot classname="spot" position='[{"x":"460", "y":"178"}]'>
+										<Label><![CDATA[<span class="number">5</span><span class="label">Porta Nova</span>]]></Label>
+									</Spot>
+									<Spot classname="spot" position='[{"x":"433", "y":"174"}]'>
+										<Label><![CDATA[<span class="number">6</span><span class="label">Gröninger Braukeller</span>]]></Label>
+									</Spot>
+									<Spot classname="spot" position='[{"x":"455", "y":"67"}]'>
+										<Label><![CDATA[<span class="number">7</span><span class="label">Nürnberger Bratwurstherzle</span>]]></Label>
+									</Spot>
+									<Spot classname="spot" position='[{"x":"535", "y":"63"}]'>
+										<Label><![CDATA[<span class="number">8</span><span class="label">Arang</span>]]></Label>
+									</Spot>
+									<Spot classname="spot" position='[{"x":"449", "y":"137"}]'>
+										<Label><![CDATA[<span class="number">9</span><span class="label">Prima Pane</span>]]></Label>
+									</Spot>
+									<Spot classname="spot" position='[{"x":"570", "y":"73"}]'>
+										<Label><![CDATA[<span class="number">10</span><span class="label">Bei Annette Bistro</span>]]></Label>
+									</Spot>
+									<Spot classname="spot" position='[{"x":"760", "y":"99"}]'>
+										<Label><![CDATA[<span class="number">11</span><span class="label">Saalbach Bistro</span>]]></Label>
+									</Spot>
+									<Spot classname="spot" position='[{"x":"640", "y":"85"}]'>
+										<Label><![CDATA[<span class="number">12</span><span class="label">La Taskita</span>]]></Label>
+									</Spot>
+									<Spot classname="spot" position='[{"x":"750", "y":"54"}]'>
+										<Label><![CDATA[<span class="number">13</span><span class="label">Sausalitos Hamburg</span>]]></Label>
+									</Spot>
+								</Hotspots>
+							</Mod>
+	                    	<Mod template="mod.image" classname="bubble">
+	                    		<Image>media/bubble_location.png</Image>
+	                    	</Mod>
+					</Col>
+				</Row>
+
+				<Row>
+					<Col classname="col6of12 suffix6of12">
+						<Mod template="mod.heading" classname="padding-left-double margin-bottom" style="padding-top: 10px;">
+							<Headline classname="headline">Im Zweifel mittendrin</Headline>
+						</Mod>
+					</Col>
+					<Col classname="col6of12">
+						<Mod template="mod.text" classname="padding-left-double padding-right">
+						  <Copy>
+							<![CDATA[
+								<p>
+									Die markanten Hochhäuser der Hamburg Heights prägen seit mehr als 40 Jahren das Bild der Altstadt am Zollkanal. Aus allen Richtungen sind die architektonischen Stil-Ikonen an diesem prominenten Standort bestens zu sehen. Und Height1 ist eine Immobilie, die der Exklusivität dieser herausragenden Lage entspricht.
+								</p>
+
+								<p>
+									Die Hamburg Heights liegen mitten in der Hamburger Innenstadt. Nur wenige Schritte verbinden das Gelände mit dem lebendigen Geschäftsviertel und dem Rathaus. Hier ist man mittendrin in  der Arbeitswelt und doch darüber erhaben. Für viele Unternehmen ist Hamburg zu einer wichtigen Schaltzentrale im internationalen Business geworden. Die Stadt an der Elbe hat eine ausgezeichnete Reputation entwickelt und ist ein Magnet für erfolgreiche Firmen aus aller Welt. Hier treffen sich Topbranchen wie Informationstechnik, Handel, Logistik, Werbung und Medien. 
+								</p>
+							]]>
+						  </Copy>
+						</Mod>
+					</Col>
+					<Col classname="col6of12">
+						<Mod template="mod.text" classname="mod">
+						  <Copy>
+							<![CDATA[
+								<p>
+									Mit den Hamburg Heights präsentiert HOCHTIEF Projektentwicklung hochwertig erschlossene Büroflächen in einem der begehrtesten Teile der Hamburger Altstadt. Das Office-Quartier liegt im Zentrum der Wirtschafts- und Handelsmetropole: Die Neustadt ist wenige Straßen entfernt, die Speicherstadt liegt vis-à-vis. Und durch die hervorragende Verkehrsanbindung ist alles Wichtige schnell erreichbar. Auch der Erfolg.
+								</p>
+							]]>
+						  </Copy>
+						</Mod>
+					</Col>
+				</Row>
+
+				<Row classname="border-top margin-top-double">
+					%Global:TeaserProject%
+					%Global:TeaserHistory%
+				</Row>
+
+			</Area>
+		</Section>
+
+
+	</Content>
+</Page>

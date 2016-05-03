@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Page template="index">
+	
+	<Meta>
+		<Title>excuse us</Title>
+		<Keywords></Keywords>
+		<Description></Description>
+	</Meta>
+	
+	<Content>
+
+		<Section classname="section">
+
+			<Figure classname="first">
+				<Image>media/pages/service-empfang.jpg</Image>
+			</Figure>
+
+			<Article>
+				<Row>
+					<Col classname="headline">
+						<Mod template="mod.headline.2">
+							<Headline><![CDATA[
+								e<em class="x">x</em>cuse us
+							]]></Headline>
+						</Mod>
+					</Col>
+					<Col classname="col8of10 suffix2of10">
+						<Mod template="mod.text" classname="exzerpt padding-bottom-double">
+							<Copy><![CDATA[
+								<p>Die von Ihnen angeforderte Seite konnte leider nicht gefunden werden.</p>
+							]]></Copy>
+						</Mod>
+					</Col>
+				</Row>
+
+			</Article>
+			
+		</Section>
+
+	</Content>
+</Page>

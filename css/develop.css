@@ -1,0 +1,24 @@
+/* CSS Document */
+
+/* Map */
+.map .frame { position: relative; width:100%; height:400px; display: block; background-color:#fff; overflow:hidden; }
+.map .legend li { display:block; cursor:pointer; }
+.hotspotlayer, .hotspot { position: absolute; }
+.hotspotlayer{ display:none; }
+.hotspot { width:21px; height:21px; }
+.hotspot .spot_info { padding-top:5px; padding-left:5px; display:none; }
+.hotspot .spot_icon{ cursor:pointer; }
+.hotspot:hover{ margin-left:-179px; width:200px; height:auto; background-color:#FFF; z-index:1000; }
+
+.hotspot:hover .spot_info { display:block; }
+
+.hotspot h1 { font-size:80%; }
+.hotspot h2 { font-size:110%; }
+.spot_icon { position:absolute; right:0; top:0; width:21px; height:21px; }
+.tiles { position: absolute; }
+.subway .subway { display:block; }
+.traffic .traffic { display:block; }
+.shopping .shopping { display:block; }
+.gastro .gastro { display:block; }
+
+.layer { display:none; position:absolute; }

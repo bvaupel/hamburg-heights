@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Local>
+
+	<Header classname="header">
+		<Area>
+			<!--<Mod template="mod.logo" classname="logo">
+				<Headline href="home" classname="ir">Hamburg Heights</Headline>
+			</Mod>-->
+			<Row classname="margin-top-negativ">
+				<Col classname="col3of12 align-left">
+					<Mod template="mod.image" classname="mod">
+						<Image style="width:132px;">css/skin/hochtief-logo@2x.png</Image>
+					</Mod>
+				</Col>
+				<Col classname="col2of12 prefix7of12">
+					<Mod template="mod.image" classname="mod align-right" href="home">
+						<Image style="width:96px;">css/skin/heights-logo@2x.png</Image>
+					</Mod>
+				</Col>
+			</Row>
+			<Row>
+			<Menu classname="menu" id="menu">
+				<Group classname="clearfix">
+					<Item href="home"><![CDATA[
+						<span class="number">Und los!</span><span class="t">Alles auf Anfang</span>
+					]]></Item>
+					<Item href="project"><![CDATA[
+						<span class="number">Neustart</span><span class="t">Das Projekt</span>
+					]]></Item>
+					<Item href="history"><![CDATA[
+						<span class="number">Epizentrale</span><span class="t">Die Geschichte</span>
+					]]></Item>
+					<Item href="location"><![CDATA[
+						<span class="number">Standort</span><span class="t">Die Umgebung</span>
+					]]></Item>
+					<Item href="heights"><![CDATA[
+						<span class="number">Heights Potentials</span><span class="t">Die Hamburg Heights</span>
+					]]></Item>
+					<Item href="contact"><![CDATA[
+						<span class="number">Kontakt</span><span class="t">Ihr Partner</span>
+					]]></Item>
+				</Group>
+				<Wrap classname="slant" />
+			</Menu>
+		</Row>
+		</Area>
+	</Header>
+
+
+	<Footer classname="footer" style="padding-top:25px;">
+		<Wrap classname="slant top" />
+		<Area>
+			<Row>
+				<Col classname="col8of12">
+					<Mod template="mod.text" classname="padding-left">
+						<Copy><![CDATA[
+							<span class="h5 grey">Stand der Informationen: Juni 2013 - Copyright HOCHTIEF Projektentwicklung GmbH © 2013</span>
+						]]></Copy>
+					</Mod>
+				</Col>
+				<Col classname="col4of12">
+					<Mod template="mod.text" classname="align-right padding-right">
+						<Copy><![CDATA[
+							<span class="h5 grey"><a href="http://hamburg-heights.de/de/impressum/">Impressum &nbsp; | &nbsp; Rechtliche Hinweise</a></span>
+						]]></Copy>
+					</Mod>
+				</Col>
+			</Row>
+		</Area>
+	</Footer>
+
+	<TeaserLocation>
+		<Col classname="col6of12" style="margin-top: 20px; margin-bottom: 20px;">
+			<Mod template="mod.teaser.inner" classname="teaser dropshadow bg-grey" href="location">
+				<Image classname="">media/teaser_location.jpg</Image>
+				<Headline classname="h3 blue padding-left">Place to b2b </Headline>
+				<Exzerpt classname="exzerpt">Der Standort</Exzerpt>
+			</Mod>
+		</Col>
+	</TeaserLocation>
+
+	<TeaserHistory>
+		<Col classname="col6of12" style="margin-top: 20px; margin-bottom: 20px;">
+			<Mod template="mod.teaser.inner" classname="teaser dropshadow bg-grey" href="history">
+				<Image classname="">media/teaser_history.jpg</Image>
+				<Headline classname="h3 blue padding-left">Epizentrale</Headline>
+				<Exzerpt classname="exzerpt">Die Geschichte</Exzerpt>
+			</Mod>
+		</Col>
+	</TeaserHistory>
+
+	<TeaserProject>
+		<Col classname="col6of12" style="margin-top: 20px; margin-bottom: 20px;">
+			<Mod template="mod.teaser.inner" classname="teaser dropshadow bg-grey" href="project">
+				<Image classname="">media/teaser_project.jpg</Image>
+				<Headline classname="h3 blue padding-left">Neustart</Headline>
+				<Exzerpt classname="exzerpt">Das Projekt</Exzerpt>
+			</Mod>
+		</Col>
+	</TeaserProject>
+
+</Local>

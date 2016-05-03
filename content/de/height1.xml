@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Page template="index">
+	
+	<Meta>
+		<Title>Heights1</Title>
+		<Keywords>Hamburg, Heights</Keywords>
+		<Description>Zusammen mit modernen Neubauten werden die historischen Häuser ein Ensemble bilden, das als Hamburg Heights zu einem Wahrzeichen der Stadt heranreift – selbstbewusst, eigenständig und dynamisch.</Description>
+	</Meta>
+	
+	<Content>
+
+		<Section>
+			<Area>
+				<Row>
+					<Col classname="col12of12 relative margin-bottom-double">
+						<!--<Mod template="mod.image" classname="mod padding-top">
+                    		<Image classname="dropshadow stretch">media/heights/slider2.jpg</Image>
+                    	</Mod>-->
+						<Mod classname="fadegallery autogallery dropshadow " style="margin-left: 12px; margin-right: 12px; margin-top: 16px;">
+							<Panel>
+								<Mod template="mod.image" classname="slide active" id="slide-1">
+									<Image classname="stretch">media/heights/slider2.jpg</Image>
+								</Mod>
+								<Mod template="mod.image" classname="slide" id="slide-2">
+									<Image classname="stretch">media/heights/slider11.jpg</Image>
+								</Mod>
+								<Mod template="mod.image" classname="slide" id="slide-3">
+									<Image classname="stretch">media/heights/slider9.jpg</Image>
+								</Mod>
+							</Panel>
+							<Nav classname="simple-nav js-gallery-nav">
+								<Item href="#slide-1" title="1" />
+								<Item href="#slide-2" title="2" />
+								<Item href="#slide-3" title="3" />
+							</Nav>
+						</Mod>
+                    	<Mod template="mod.image" classname="bubble">
+                    		<Image>media/bubble_height_1.png</Image>
+                    	</Mod>
+					</Col>
+				</Row>
+
+				<Row>
+					<Col classname="col3of12 suffix9of12 padding-bottom">
+						<Mod template="mod.text" classname="padding-left-double selection" 
+							 href="heights">
+						<Copy><![CDATA[
+							zurück zur Auswahl
+						]]></Copy>
+						</Mod>
+					</Col>
+					<Col classname="col6of12 suffix6of12">
+						<Mod template="mod.heading" classname="padding-left-double margin-bottom" style="margin-top: 11px;">>
+							<Headline classname="headline">Zwölf Etagen Chancen</Headline>
+						</Mod>
+					</Col>
+				</Row>
+
+					
+				<Row>
+					<Col classname="col6of12">
+						<Mod template="mod.text" classname="padding-left-double padding-right-double">
+						  <Copy>
+							<![CDATA[
+								<p>
+									Eine erste Adresse an einem herausragenden Standort: Die breiten Fensterfronten von Height1 und die offene Fläche zum Zollkanal hin sorgen dafür, dass natürliches Licht alle zwölf Etagen des Gebäudes erreicht. Die lichtdurchfluteten Stockwerke ermöglichen Einzelbüros oder Großraumlösungen, die auch über Etagen miteinander kombiniert werden können.
+								</p>
+
+								<p class="border-bottom padding-bottom">
+									Die Mietfläche von mehr als 7100 Quadratmetern kann ganz nach den Wünschen der Mieter zugschnitten werden. Flexibilität ist schließlich ein wichtiges Erfolgskriterium. Als besonderes Erbe befindet sich im Untergeschoss von Height1 das ehemalige Schwimmbad. Der große Raum eröffnet zahlreiche interessante Nutzungsmöglichkeiten, zum Beispiel als Club oder Lounge. Lassen Sie sich inspirieren.
+
+							]]>
+						  </Copy>
+						</Mod>
+						<Col classname="col2of12fixed" style="margin-top: 10px;">
+							<Mod template="mod.text" classname="padding-left-double">
+							  <Copy>
+								<![CDATA[
+									<p class="font-height1">
+										Daten & Fakten 
+									</p>
+								]]>
+							  </Copy>
+							</Mod>
+						</Col>
+						<Col classname="col4of12fixed" style="margin-top: 25px;">
+							<Mod template="mod.text">
+							  <Copy>
+								<![CDATA[
+										<ul class="facts-list">
+											<li>Gesamtmietfläche: zirka 7 150 m²</li>
+											<li>Mietfläche pro Etage: zirka 550 m²</li>
+											<li>Gebäudetiefe: 14 m</li>
+											<li>1-2 Gewerbeeinheiten im Erdgeschoss</li>
+											<li>flexible Flächenaufteilung ab zirka 275 m²</li>
+											<li>25 Tiefgaragenstellplätze</li>
+									    </ul>
+								]]>
+							  </Copy>
+							</Mod>
+						</Col>
+						<Mod template="mod.table" classname="mod facts-table">
+						 <Row>
+			                <UnitOne classname="unit-one">Objekt</UnitOne>
+			                <UnitTwo>Height1</UnitTwo>
+			              </Row>
+			              <Row>
+			                <UnitOne classname="unit-one">Adresse</UnitOne>
+			                <UnitTwo>Brandstwiete 19, 20457 Hamburg</UnitTwo>
+			              </Row>
+			               <Row>
+			                <UnitOne classname="unit-one">Gebäudetyp</UnitOne>
+			                <UnitTwo>12-geschossiges Bürogebäude zzgl. Erdgeschoss und Untergeschoss</UnitTwo>
+			              </Row>
+			              <Row>
+			                <UnitOne classname="unit-one">Baujahr</UnitOne>
+			                <UnitTwo>1969</UnitTwo>
+			              </Row>
+			              <Row>
+			                <UnitOne classname="unit-one">Revitalisierung</UnitOne>
+			                <UnitTwo>2013 bis 2015</UnitTwo>
+			              </Row>
+			              <Row>
+			                <UnitOne classname="unit-one">Nutzungsart</UnitOne>
+			                <UnitTwo>Büronutzung mit Gewerbeflächen</UnitTwo>
+			              </Row>
+			              <Row>
+			                <UnitOne classname="unit-one">Bruttogrundfläche</UnitOne>
+			                <UnitTwo>zirka 8 100 m²</UnitTwo>
+			              </Row>
+			              <Row>
+			                <UnitOne classname="unit-one">Aufzüge</UnitOne>
+			                <UnitTwo>mindestens drei</UnitTwo>
+			              </Row>
+          			    </Mod>
+					</Col>
+					<Col classname="col6of12">
+						<Mod template="mod.image" classname="mod overlay" href="media/heights/height1-zellen-xl.jpg">
+                    		<Image>media/heights/h1-zellen.png</Image>
+                    	</Mod>
+                    	<Mod template="mod.image" classname="mod overlay" href="media/heights/height1-team-xl.jpg">
+                    		<Image>media/heights/h1-team.png</Image>
+                    	</Mod>
+                    	<Mod template="mod.image" classname="mod overlay" href="media/heights/height1-open-xl.jpg">
+                    		<Image >media/heights/h1-open.png</Image>
+                    	</Mod>
+					</Col>
+				</Row>
+
+
+
+				
+
+			</Area>
+		</Section>
+
+
+	</Content>
+</Page>

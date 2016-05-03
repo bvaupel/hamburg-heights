@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Page template="index">
+	
+	<Meta>
+		<Title>Impessum</Title>
+		<Keywords>Hamburg, Heights</Keywords>
+		<Description>HOCHTIEF Solutions plant, entwickelt, baut, bewirtschaftet und verwaltet Immobilien und Infrastruktureinrichtungen.</Description>
+	</Meta>
+	
+	<Content>
+
+		<Section>
+			<Area>
+				<Row>
+					<Col classname="col12of12 relative margin-bottom-double">
+						<Mod template="mod.image" classname="mod padding-top">
+                    		<Image classname="dropshadow stretch">media/contact/slider1.jpg</Image>
+                    	</Mod>
+					</Col>
+				</Row>
+
+				<Row style="margin-top: 35px;">
+					<Col classname="col6of12">
+						<Mod template="mod.heading" classname="padding-left-double margin-bottom">
+							<Headline classname="headline">Impressum</Headline>
+						</Mod>
+					</Col>
+					<Col classname="col6of12">
+						<Mod template="mod.heading" classname="padding-left-double margin-bottom">
+							<Headline classname="headline">Rechtlicher Hinweis</Headline>
+						</Mod>
+					</Col>
+					<Col classname="col6of12">
+						<Mod template="mod.text" classname="padding-left-double padding-right">
+						  <Copy>
+							<![CDATA[
+							<p>
+								HOCHTIEF Projektentwicklung GmbH <br />
+								Niederlassung Nord<br>
+								Fuhlsbüttler Straße 399<br>
+								22309 Hamburg<br>
+							</p>
+							
+							<p>
+								Telefon: +49 (0) 40 / 30 03 21 - 57 00 <br>
+								E-Mail: <a href="mailto:info.htp@hochtief.de">info.htp@hochtief.de</a> 
+							</p>
+							
+							
+							<p>
+								Vertretungsberechtigt ist die Geschäftsführung <br>
+								Registergericht: Essen HRB 8665<br>
+								USt-IdNR. DE 8111 702 28
+							</p>
+
+
+							<p>
+								Geschäftsführung: <br>
+								Robert Bambach<br>
+								Dr. Christoph Husmann<br>
+								Peter Noack
+							</p>
+							
+
+							<p>
+								Design und Realisation:<br/>
+								<a href="http://www.cadman.de">CADMAN Real Estate Marketing</a>
+							</p>
+							
+							<p>
+								Copyight:<br/>
+								Alle auf dieser Internetseite veröffentlichten Informationen und Beiträge sind urheberrechtlich geschützt.
+							</p>
+							]]>
+						  </Copy>
+						</Mod>
+					</Col>
+					<Col classname="col6of12">
+						<Mod template="mod.text" classname="padding-left-double padding-right">
+						  <Copy>
+							<![CDATA[
+							<p>1. Inhalt des Onlineangebotes<br><b>HOCHTIEF Projektentwicklung GmbH</b> übernimmt keinerlei Gewähr für die Aktualität, Korrektheit, Vollständigkeit oder Qualität der bereitgestellten Informationen. Haftungsansprüche gegen <b>HOCHTIEF Projektentwicklung GmbH</b>, welche sich auf Schäden materieller oder immaterieller Art beziehen, die durch die Nutzung oder Nichtnutzung der dargebotenen Informationen bzw. durch die Nutzung fehlerhafter und unvollständiger Informationen verursacht wurden, sind grundsätzlich ausgeschlossen, sofern seitens <b>HOCHTIEF Projektentwicklung GmbH</b> kein vorsätzliches oder grob fahrlässiges Verschulden vorliegt.<br>
+							Alle Angebote sind freibleibend und unverbindlich. <b>HOCHTIEF Projektentwicklung GmbH</b> behält es sich ausdrücklich vor, Teile der Seiten oder das gesamte Angebot ohne gesonderte Ankündigung zu verändern, zu ergänzen, zu löschen oder die Veröffentlichung zeitweise oder endgültig einzustellen.<br>
+							Die Informationen und Daten dieses Onlineangebotes dienen dem Nutzer ausschließlich zu Informationszwecken und zum persönlichen Gebrauch.</p>
+
+							<p>2. Verweise und Links<br> Bei direkten oder indirekten Verweisen auf fremde Internetseiten ("Links"), die außerhalb des Verantwortungsbereichs von <b>HOCHTIEF Projektentwicklung GmbH</b> liegen, ist jede Haftungsverpflichtung von <b>HOCHTIEF Projektentwicklung GmbH</b> ausgeschlossen.<br><b>HOCHTIEF Projektentwicklung GmbH</b> erklärt ausdrücklich, dass ihr keine Informationen über rechtswidrige Inhalte auf den in vorstehender Ziffer 1 genannten Seiten vorliegen. <b>HOCHTIEF Projektentwicklung GmbH</b> hat keinerlei Einfluss auf deren aktuelle und zukünftige Gestaltung und auf deren Inhalte. Sie überprüft auch nicht die Inhalte der Seiten, die nach der Linksetzung verändert wurden. Dies gilt für alle innerhalb der Website gesetzten Verweise und Links auf Dritte sowie für Fremdeinträge in Gästebüchern, Diskussionsforen oder Mailing-Listen. Für fehlerhafte, rechtswidrige oder unvollständige Inhalte und insbesondere für Schäden, die aus der Nutzung solcher Informationen entstehen, haftet alleine der Anbieter der Website, auf welche verwiesen wurde.
+
+							<p>3. Urheber- und Kennzeichenrecht<br><b>HOCHTIEF Projektentwicklung GmbH</b> weist ausdrücklich darauf hin, dass die auf der Website veröffentlichten Grafiken, Animationen, Fotos und Texte urheberrechtlich oder in anderer Form des gewerblichen Rechtsschutzes - Marken, Geschmacksmuster etc. – geschützt sind. Die zugrundeliegenden Rechte liegen allein bei <b>HOCHTIEF Projektentwicklung GmbH</b> oder bei Dritten, die <b>HOCHTIEF Projektentwicklung GmbH</b> das Recht zur Veröffentlichung auf der Website eingeräumt haben. Eine Vervielfältigung oder Verwendung dieser Grafiken, Animationen, Fotos und Texte in anderen elektronischen oder gedruckten Publikationen ist nicht gestattet, es sei denn, <b>HOCHTIEF Projektentwicklung GmbH</b> erteilt hierzu ihre ausdrückliche schriftliche Zustimmung.</p>
+
+							<p>4. Datenschutz<br>Sofern innerhalb des Internetangebotes die Möglichkeit zur Eingabe persönlicher oder geschäftlicher Daten (E-Mail Adressen, Namen, Anschriften) besteht oder Daten per E-Mail an den Autor versandt werden, so erfolgt die Preisgabe dieser Daten seitens des Nutzers auf ausdrücklich freiwilliger Basis. Soweit im Hinblick auf das Websiteangebot erforderlich, werden die Daten unter Einhaltung des Bundesdatenschutzgesetzes (BDSG) elektronisch verarbeitet. Der Absender der Daten erklärt gleichzeitig mit deren Angabe seine Einwilligung zur elektronischen Verarbeitung. Der Absender kann die Einwilligung zur Speicherung und Verwendung der Daten jederzeit widerrufen.</p>
+
+							<p>5. Sonstiges<br>Sollten einzelne Klauseln unwirksam sein oder werden, berührt dies die Wirksamkeit der anderen Klauseln nicht. Es wird die ausschließliche Anwendbarkeit deutschen Rechts vereinbart. Gerichtsstand und Erfüllungsort für alle Ansprüche ist Hamburg.</p>
+							]]>
+						  </Copy>
+						</Mod>
+					</Col>
+				</Row>
+
+				<Row style="margin-top: 35px;">
+					%Global:TeaserProject%
+					%Global:TeaserHistory%
+				</Row>
+
+			</Area>
+		</Section>
+
+
+	</Content>
+</Page>
